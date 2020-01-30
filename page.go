@@ -2,6 +2,7 @@ package main
 
 import "io/ioutil"
 
+// Page is a wiki document
 type Page struct {
 	Title string
 	Body  []byte
